@@ -27,22 +27,21 @@ const anaSayfa=function(req, res, next) {
        ] 
      }
      );
-  }
+   }
 
   const mekanBilgisi=function(req, res, next) {
-    res.render('mekanbilgisi',
-     { "baslik": "Mekan bilgisi",
+    res.render('mekanbilgisi',{
+      "baslik": "Mekan Bilgisi",
       "mekanBaslik":"Starbucks",
       "mekanDetay":{
         "ad":"Starbucks",
         "adres":"centrum garden",
         "puan":"4",
         "imkanlar":["çaylar","pastalar"],
-        "koordinatlar":{
+        "koordinatlar": {
           "enlem":"37.7",
           "boylam":"30.5"
-          },
-
+        },
         "saatler":[
           {
             "gunler":"pazartesi-cuma",
@@ -58,25 +57,25 @@ const anaSayfa=function(req, res, next) {
           }
         ],
         
-          "yorumlar":[
-            {
-              "yorumYapan":"Sena",
-              "puan":"3",
-              "tarih":"20 eki 2022",
-              "yorumMetini":"Süper"
-            },
-            {
-              "yorumYapan":"isimsiz",
-              "puan":"5",
-              "tarih":"20 eki 2022",
-              "yorumMetini":"Süper"
-            }
-          ]
+        "yorumlar":[
+          {
+            "yorumYapan":"sena",
+            "puan":"3",
+            "tarih":"20 eki 2022",
+            "yorumMetini":"Süper"
+          },
+          {
+            "yorumYapan":"isimsiz",
+            "puan":"5",
+            "tarih":"20 eki 2022",
+            "yorumMetini":"Süper"
+          }
+        ]
         
 
       }
-     });
-  }
+    });
+}
 
   const yorumEkle=function(req, res, next) {
     res.render('yorumekle', { title: 'Yorum ekle' });
