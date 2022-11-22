@@ -16,7 +16,7 @@ const yorumGuncelle=function(req,res){
 }
 const yorumGetir=function(req,res){
     if(req.params && req.params.mekanid && req.params.yorumid){
-        Mekan.findByİd(req.params.mekanid)
+        Mekan.findById(req.params.mekanid)
         .select("ad yorumlar")
         .exec(function(hata,mekan){
             var cevap,yorum;
