@@ -26,7 +26,7 @@ const yorumGetir=function(req,res){
                 });
                 return;
             }
-            else if(hata){
+       else if(hata){
                 cevapOlustur(res,400,hata);
                 return;
             
