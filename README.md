@@ -1,5 +1,6 @@
 # mekanbul
-<img width="1280" alt="Ekran Resmi 2022-11-22 10 19 13" src="https://user-images.githubusercontent.com/115145369/203251408-90d18787-2837-47b3-bf7a-b73d505e6934.png">
+##mekanbul collections
+<img width="1280" alt="Ekran Resmi 2022-11-29 13 25 17" src="https://user-images.githubusercontent.com/115145369/204510478-621eedd7-30d1-4428-80a8-48d9af0cfcba.png">
 
 # MekanBul REST APİ adresleri
 
